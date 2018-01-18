@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ICICC | International Conference on Innovative Computing and Communication</title>
+
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+  <%= csrf_meta_tags %>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/396999c087.js"></script>
+
+
+</head>
+<body>
+
+  <div class="non-sticky-header">
+
+      <div class="logo-header">
+        <img src="/gallery/gurunanak.png" alt="logo">
+      </div>
+
+      <div class="title-for-header custom-font">
+
+          <h2> INTERNATIONAL CONFERENCE ON INNOVATIVE COMPUTING AND COMMUNICATION <br /> (ICICC-2018) </h2>
+          <h5>ORGANISED BY : GURU NANAK INSTITUTE OF MANAGEMENT <br />5TH-6TH MAY,2018</h5>
+
+
+      </div>
+      <div class="logo-header">
+
+        <img src="/gallery/Springer.png" alt="logo">
+
+      </div>
+
+
+  </div>
+
+  <div class="sticky-header-main-all">
+
+    <ul class="custom-font">
+      <li>Home</li>
+      <li>About</li>
+      <li>Paper</li>
+      <li>Registration</li>
+      <li>Sponsorship</li>
+      <li>Publication</li>
+      <li>Committee</li>
+      <li>
+        Explore
+      </li>
+      <li>
+        Downlaods
+      </li>
+    </ul>
+
+  </div>
+
+
+
+<%= yield %>
+
+</body>
+</html>
